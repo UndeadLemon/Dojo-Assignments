@@ -1,0 +1,30 @@
+div.block > img {
+    height: 200px;
+    width: 200px;
+}
+.block1{
+    background-color:paleturquoise;
+}
+.container > .block2{
+    background-color:palevioletred;
+    justify-content: space-around;
+}
+.block3{
+    background-color:whitesmoke;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color:gray;
+    font-family: Arial;
+}
+h6{
+text-align: center;
+font-family: Arial;
+color:lightgray;
+}
