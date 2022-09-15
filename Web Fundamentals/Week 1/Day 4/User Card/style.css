@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+.container{
+    width:30em;
+    height:15em;
+    margin:auto;
+    margin-top:10%;
+    position:relative;
+}
+.usercard {
+    display:flex;
+    flex-direction:column;
+    width:30em;
+    height:15em;
+    border:.15em solid gray;
+    margin: auto;
+    margin-top:10%;
+    overflow:hidden;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.bluespace{
+    height:36%;
+    width:101%;
+    background:teal;
+    
+}
+.whitespace{
+    background:white;
+    flex:2;
+}
+.container > img{
+    height:2.5em;
+    width:2.5em;
+    position:absolute;
+    margin-top:2.6em;
+    margin-left:1em;
+    border:.15em solid gray;
+    border-radius:50%;
+}
+.whitespacetext{
+    height:66%;
+    margin-top: 1em;
+    margin-left: 1em;
+    background:white;
+}
+.whitespacetext > img{
+    height:1em;
+    margin-right:.5em;
+}
+.name{
+    font-size:1.25em;
+    font-weight:bold;
+    
+}
+.city{
+    font-size:1.1em;
+    font-weight:bold;
+    line-height:2em;
+}
