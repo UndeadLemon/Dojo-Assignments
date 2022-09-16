@@ -267,3 +267,6 @@ img{
 .connectionsFooter > span{
     margin-left:10px;
 }
+.headerSpacer{
+    flex:.8
+}
