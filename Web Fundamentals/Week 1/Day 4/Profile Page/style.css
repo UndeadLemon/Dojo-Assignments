@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
+.main{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+img{
+    max-height: 100px;
+    max-width: 100px;
+}
+.navbar{
+    background:rgb(54, 53, 53);
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0em 2em;
+}
+.navbar a {
+    text-decoration:none;
+    color:inherit;
+}
+.navbarTitle{
+    flex:.5;
+    align-items: center;
+}
+.navbarLinks{
+    display:flex;
+    flex:5;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navbarLinks > ul > li{
+    padding:0em 2em;
+    color:darkgray;
+}
+.navbarLinks > ul > li:hover{
+    color:white;
+}
+.navbarLinks > button{
+    background:rgb(84, 143, 180);
+    color:white;
+    padding:.3em;
+}
+.content{
+    display:flex;
+    gap:2em;
+    
+}
+.leftColumn{
+    flex:1;
+    overflow:auto;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.rightColumn{
+    flex:1;
+    overflow:auto;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    margin:1em;
+}
+.connectReq{
+    background:whitesmoke;
+    margin: 1em;
+}
+.connectionsMain{
+    margin:1em;
+    background:whitesmoke;
+}
+
+.navbarTitle{
+    display:flex;
+
+}
+.navbarTitle > h2{
+    
+    color:white;
+}
+.navbarLinks > ul{
+    color:white;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.navbarLinks > ul > li{
+    float:left;
+    
+}
+.education{
+    background:lightgray;
+    margin:10px;
+}
+.educationHeader{
+    background:black;
+    color:white;
+    height:1.75em;
+}
+.educationHeader > span{
+    margin:5px;
+}
+.container{
+    width:98%;
+    
+    margin:auto;
+    margin-top:10%;
+    position:relative;
+}
+.userCard {
+    display:flex;
+    flex-direction:column;
+    border:.15em solid gray;
+    margin: 10px;
+    overflow:hidden;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.whitespace{
+    flex:2;
+}
+.container > img{
+    height:2.5em;
+    width:2.5em;
+    position:absolute;
+    margin-top:2.6em;
+    margin-left:1em;
+    border:.15em solid gray;
+    border-radius:50%;
+}
+.whitespaceText{
+    height:66%;
+    margin-top: 1em;
+    margin-left: 1em;
+    background:white;
+}
+.whitespaceText > img{
+    height:1em;
+    margin-right:.5em;
+}
+.name{
+    font-size:1.25em;
+    font-weight:bold;
+    
+}
+.city{
+    font-size:1.1em;
+    font-weight:bold;
+    line-height:2em;
+}
+.footer{
+    text-align:end;
+    position:fixed;
+    background: gray;
+    height: 20px;
+    border:black solid 2px;
+    bottom:0px;
+    width:100%;
+    left:0px;
+    margin:0;
+}
+.education{
+    display:flex;
+    flex-direction: column;
+}
+.educationHeader{
+    padding:1px 10px;
+    display:flex;
+    align-items: center;
+
+}
+.educationSchool{
+    font-size:20px;
+    font-weight:bold;
+}
+.educationDate{
+    color:rgb(94, 92, 92);
+}
+.educationBody{
+    border:gray solid 2px;
+}
+.educationBody > span{
+    padding:1px 15px;
+    line-height: 1.5em;
+}
+.numberHeader{
+    display:flex;
+    justify-content: space-evenly;
+    background:black;
+    color:white;
+    padding:7px;
+    align-items:center;
+}
+.numberBubble{
+    background:lightgray;
+    border-radius: 50%;
+    padding:3px 7px;
+    color:black;
+}
+.connectPeople{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.connectPerson{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.connectProfile{
+    display:flex;
+}
+.connectProfile >span{
+    margin:1em;
+    font-weight: 700;
+}
+.connectProfile > img{
+    height:2em;
+    border-radius:50%;
+    margin:.4em .5em;
+}
+.connectIcon > img{
+    height:2em;
+    margin:.2em;
+}
