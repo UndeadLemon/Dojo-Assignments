@@ -42,6 +42,10 @@ img{
     background:rgb(84, 143, 180);
     color:white;
     padding:.3em;
+    
+}
+.navbarLinks >button:hover{
+    cursor:pointer;
 }
 .content{
     display:flex;
@@ -70,6 +74,8 @@ img{
 .connectionsMain{
     margin:1em;
     background:whitesmoke;
+    display:flex;
+    flex-direction:column;
 }
 
 .navbarTitle{
@@ -117,9 +123,16 @@ img{
     overflow:hidden;
     font-family: 'Alegreya Sans', sans-serif;
 }
-
+.whitespaceProfile{
+    background:transparent;
+}
+.whitespaceProfile >img{
+    height:3em;
+}
 .whitespace{
     flex:2;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 79%, rgba(0,158,162,1) 69%);
 }
 .container > img{
     height:2.5em;
@@ -134,7 +147,7 @@ img{
     height:66%;
     margin-top: 1em;
     margin-left: 1em;
-    background:white;
+    background:transparent;
 }
 .whitespaceText > img{
     height:1em;
@@ -200,6 +213,7 @@ img{
     color:black;
 }
 .connectPeople{
+    border: gray solid 2px;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -224,4 +238,32 @@ img{
 .connectIcon > img{
     height:2em;
     margin:.2em;
+}
+.connectionsPeople{
+    border: gray solid 2px;
+    border-bottom:none;
+}
+.connectionsPerson{
+    display:flex;
+    align-items:center;
+}
+.connectionsPerson > img{
+    height:2em;
+    border-radius:50%;
+    margin:.4em .5em;
+}
+.connectionsPerson > span{
+    margin:1em;
+    font-weight: 700;
+}
+.connectionsFooter{
+    display:flex;
+    align-items:center;
+    height:20px;
+    background:darkgray;
+    border-top: 0;
+    border: gray solid 2px;
+}
+.connectionsFooter > span{
+    margin-left:10px;
 }
