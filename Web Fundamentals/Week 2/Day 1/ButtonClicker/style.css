@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    margin:0 10%;
+}
+.ninjaText{
+    line-height: 0;
+    font-size:15px;
+    font-weight: 700;
+}
+.nounText{
+    line-height:0;
+    font-style: italic;
+    font-size:12px;
+}
+.pluralText{
+    font-size:10px;
+}
+.body{
+    display:flex;
+    justify-content:space-between
+
+}
+.ninjaBox{
+    display:flex;
+    border: 2px gray solid;
+    width: 30em;
+    justify-content: center;
+
+}
+.ninjaBox span{
+    width:20em
+}
+.navbar{
+    background:gray;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0px 3%;
+}
+.navbar > input{
+    height:20%;
+    width:50%;
+    max-width: 300px;
+    border: black 2px solid;
+}
+.navbar > button{
+    background:rgb(123, 212, 240);
+
+    border:3px solid black;
+}
+.rightColumn{
+
+    flex:1.5;
+    margin:5% 5%;
+    margin-left: 0;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+}
+.boxDefinition{
+    padding: 10%;
+    border:2px gray solid;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.body button{
+    background:rgb(119, 199, 119);
+    box-shadow: 5px 5px;
+    border:none;
+}
+.rightColumn button{
+    background:rgb(236, 236, 135) !important;
+}
+.leftColumn{
+    flex:3;
+    margin:5% 5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
+}
+.header{
+    justify-content: center;
+    display:flex;
+}
+.ninjaName{
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .2em;
+    border:.2em 
+}
+.ninjaDescription{
+    align-items:center;
+    margin:10%;
+    display:flex;
+    align-items: center;
+}
+

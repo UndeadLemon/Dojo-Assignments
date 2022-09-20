@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navbar">
+                <h1>Dojonary</h1>
+                <input type="text" placeholder="Search...">
+                <button onclick = "logChange(this)">Login</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="leftColumn">
+                <div class="ninjaBox">
+                    <div class="ninjaName">
+                        <p class="ninjaText">Ninja</p>
+                        <p class="nounText">noun</p>
+                        <p class="pluralText">Plural: ninjas</p>
+                        <button onclick="onLikeOne(this)">13 likes</button>
+                    </div>
+                    <div class="ninjaDescription">
+                        <span>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></span>
+                    </div>
+                </div>
+                <div class="ninjaBox">
+                    <div class="ninjaName">
+                        <p class="ninjaText">Ninja</p>
+                        <p class="nounText">noun</p>
+                        <p class="pluralText">Plural: ninjas</p>
+                        <button onclick="onLikeTwo(this)">37 likes</button>
+                    </div>
+                    <div class="ninjaDescription">
+                        <span>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rightColumn">
+                <div class="boxDefinition">
+                    <div class="definition">
+                        <p>Dojonary is a defined by YOU</p>
+                    </div>
+                    <div class="definitionButton">
+                        <button onclick="buttonGone(this)">Add Definition</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
