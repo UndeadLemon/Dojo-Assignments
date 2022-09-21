@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    margin:0;
+    padding:0;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    background:black;
+    color:white;
+    font-size:2em;
+    padding:.1em .3em;
+}
+.titleBar{
+    text-align: center;
+    font-size: 2em;
+    padding:.2em;
+}
+.likeBox{
+    padding:.5em;
+    border: 2px gray solid;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.likeInfo{
+    display:flex;
+    justify-content: space-between;
+}
+.likeBox button{
+    background:rgb(255, 224, 46);
+    box-shadow: 3px 3px black;
+    border: 2px black solid;
+    cursor:pointer;
+    padding:0px 3px;
+}
+.likeStuff{
+    gap:15px;
+    display:flex;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+}
+.avatarBox{
+    display:flex;
+    flex-direction: column;
+    border: 2px gray solid;
+    margin: 2em;
+    padding: 2em;
+    gap: 1em;
+    align-items: center;
+    margin-top:0;
+}
+.avatarBox img{
+    max-height: 100px
+}
+.avatarBox span{
+    font-size:1.5em;
+}
+.rightColumn{
+    padding-right:1em;
+    gap:1em;
+    display:flex;
+    flex-direction: column;
+}

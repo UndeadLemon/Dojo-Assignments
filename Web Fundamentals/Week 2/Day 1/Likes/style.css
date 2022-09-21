@@ -1,0 +1,19 @@
+
+.main{
+    display:flex;
+}
+.likeBox{
+    padding:.5em;
+    border: 2px gray solid;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.likeInfo{
+    display:flex;
+    justify-content: space-between;
+}
+.likeStuff{
+    gap:15px;
+    display:flex;
+}
